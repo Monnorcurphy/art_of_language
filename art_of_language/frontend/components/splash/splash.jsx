@@ -11,54 +11,37 @@ class Splash extends React.Component{
   constructor(props){
     super(props);
     this.state = {};
-    this.demo = this.demo.bind(this);
+
 
 
   }
 
-  componentWillReceiveProps(nextProps){
- if(nextProps.currentUser && nextProps.currentUser.id){
-   this.props.router.push('/app');
-   }
- }
 
- componentDidUpdate() {
-   this.redirectIfLoggedIn();
-
- }
-
- redirectIfLoggedIn() {
-   if (this.props.loggedIn){
-     this.props.router.replace("/main");
-   }
- }
-
-
-  toggleForm(){
-    if(this.state.formType === 'signup'){
-      this.setState({formType: 'login'});
-    }else{
-      this.setState({formType: 'signup'});
-    }
-  }
-
-  demo(){
-    this.props.demo()
-  }
 
   render () {
     {
       return (<div>
-        <nav>
-          <div>Links</div>
-        </nav>
 
-        <div>
-          <div>
-            <h1>ALI</h1>
-            <h3>Art of Language Institute</h3>
-          </div>
-          <img src="http://res.cloudinary.com/dqiuefax1/image/upload/v1487980485/imageedit_2_2657821040_nyko6e.png"/>
+
+        <div className= 'main-splash-div'>
+          <img className ='logo'src="http://res.cloudinary.com/dqiuefax1/image/upload/v1487980485/imageedit_2_2657821040_nyko6e.png"/>
+            <div className= 'splash-text-div'>
+              <div className='splash-main-text'>
+                <h1 className= 'splash-main-a'>A</h1>
+                <h1 className= 'splash-main-l'>L</h1>
+                <h1 className= 'splash-main-i'>I</h1>
+              </div>
+
+              <div className='sub-heading-div'>
+                <h2 className= 'splash-sub-text'>Art of Language Institute</h2>
+
+              </div>
+            </div>
+        </div>
+
+        <div className='splash-promotional'>
+          <p className= 'tagline'>There is more to language <p className='burn'>than a textbook</p></p>
+
         </div>
 
       </div>)

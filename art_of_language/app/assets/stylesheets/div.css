@@ -1,0 +1,40 @@
+/* Styling for the divs
+*/
+div{
+	padding: 7px;
+
+}
+
+.green{
+	background: #62C59E;
+}
+
+.blue{
+	background: #90D4F2;
+}
+
+.red{
+	background: #F9A49D;
+  float: left;
+}
+
+.orange{
+	background: #F6A166;
+
+}
+
+.blue, .orange, .red, .green{
+	display: inline-flex;
+}
+
+.inner-div{
+	width: 65%;
+  margin: auto;
+	display: inline-flex;
+}
+
+.trendy{
+	width: 65%;
+    justify-content: space-around;
+    display: flex;
+}

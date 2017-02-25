@@ -1,0 +1,104 @@
+/* The Css styling for the main page
+*/
+
+/* div wrapping the logo, ALI header, and sub text
+*/
+div.main-splash-div{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  left: 20%;
+  position: relative;
+  margin-top: 40px;
+}
+
+div.splash-text-div{
+ display: flex;
+ flex-direction: column;
+}
+
+div.splash-main-text{
+ display: flex;
+ margin-top: 20%;
+ font-size: 5vw;
+}
+
+/* A L I
+*/
+.splash-main-a{
+  color: #90D4F2;
+  padding: 0px 10px;
+  animation: textFadeIn 2s;
+
+}
+.splash-main-l{
+  color: #9ADBA2;
+  padding: 0px 10px;
+  animation: textFadeIn 10s;
+
+}
+.splash-main-i{
+  color: #F99F98;
+  padding: 0px 10px;
+  animation: textFadeIn 15s;
+
+}
+
+/* Art of Language Institute
+*/
+.splash-sub-text{
+  color:slategrey;
+  padding: 0px 10px;
+  animation: textFadeIn 13s;
+}
+
+/* The logo
+*/
+.logo{
+  width: auto;
+  max-height: none;
+  animation: logoGrow 10s infinite;
+  animation-iteration-count: 1;
+}
+
+.splash-promotional{
+  margin-bottom: 40px;
+
+}
+
+/* tagline
+*/
+.tagline{
+  margin: auto;
+  width: 50%;
+  font-size: 3vw;
+  color: #66C6A0;
+}
+
+.burn{
+  margin: 0;
+  color: #F6A166;
+}
+
+
+@keyframes logoGrow {
+  0% {
+    transform:scale(0.25);
+    opacity: 0.25;
+  }
+  100% {
+    transform:scale(1);
+    opacity:1.0;
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes textFadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity:1.0;
+    animation-timing-function: ease-in;
+  }
+}

@@ -1,0 +1,19 @@
+
+.ali-h2{
+  position: relative;
+  left: 60%
+}
+
+p{
+  padding: 10px;
+}
+
+/* nav bar at the top
+*/
+.nav-bar{
+  background: #FAF792;
+  padding: 10px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+}

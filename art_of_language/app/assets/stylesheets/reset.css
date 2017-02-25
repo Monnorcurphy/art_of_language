@@ -1,0 +1,16 @@
+html, body, div, a, h1, h2, h3, h4, button, p {
+	margin: 0;
+	padding: 0px;
+	border: none;
+  text-decoration: none;
+  color: slategrey;
+}
+
+h2{
+	padding: 20px 0px;
+	line-height: 32px;
+}
+
+div > p{
+  color: floralwhite;
+}
