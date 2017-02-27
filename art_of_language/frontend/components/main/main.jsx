@@ -20,19 +20,50 @@ class Main extends React.Component{
   render () {
     {
       return (<div className= 'main-div'>
-        <h2 className= 'information-title'>ALI's Mission</h2>
+        <h2 className= 'information-title'></h2>
         <div className='blue'>
           <div className='inner-div'>
             <img src="assets/Moutains.jpg"/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <span>
+              <h2 className= 'heading'>ALI's Mission</h2>
+          <p>ALI is committed to making you a citizen of your language.
+            That means taking you past fluency, to understanding the
+            values, the culture, and the history of where your language
+            is spoken. Our teachers all have experience traveling, and
+            understand what it means to navigate through new experiences
+            in a new country, using a new language.</p>
+
+          <p>Whether your goal is to travel to a new place, to bring
+          multiculturalism to your business, or to just master a new
+          skill ALI, is happy to adjust our teaching to meet your needs.</p>
+
+          </span>
           </div>
         </div>
-        <h2 className='ali-h2'>The purpose of ALI</h2>
+
         <div className='green information'>
           <div className='inner-div'>
+            <span>
+              <h2 className= 'heading'>The purpose of ALI</h2>
+            <p>Liam Vogel founded the school when he recognized an issue
+              with the way languages are taught in schools. Most often,
+              people feel forced to learn a language, becuase of the needs
+              of their business, or because of academia. Liam wanted to
+              bring his love of learning Spanish to others. He recognized
+              that there was a larger demand than he could fill alone,
+              and decided to found a business, with other teachers who
+              shared his values.
+            </p>
+            <p>Today, Liam has founded the business to help students,
+              professionals, and newbies in order to help them love the
+              language they are learning. Textbooks often focus on a very
+              clinical way of learning a language. We could look at art
+              the same way, focusing on the skill involved, but when we
+              do something the beauty is lost, and that is why Liam
+              founded ALI.
+            </p>
+          </span>
             <img src="assets/Pillars.jpg"/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
           </div>
         </div>
 

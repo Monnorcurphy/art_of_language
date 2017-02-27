@@ -7,7 +7,7 @@ import App from './app'
 import SessionFormContainer from './session_form/session_form_container';
 import Splash from './splash/splash_container';
 import Main from './main/main_container';
-import About from './about/about_container';
+import Teachers from './teacher/teachers_container';
 import Contact from './contact/contact_container';
 import Lesson from './lessons/lessons_container';
 
@@ -35,7 +35,7 @@ const Root = ({ store }) => {
         <Route path="/" component={App} >
           <IndexRoute component={Splash}/>
             <Route path="/main" component={Main} />
-            <Route path="/about" component={About} />
+            <Route path="/teachers" component={Teachers} />
             <Route path="/contact" component={Contact} />
             <Route path="/lessons" component={Lesson} />
 

@@ -7,7 +7,7 @@ const App = ({ children }) => (
     <nav>
       <div className= 'nav-bar'>
         <div className= 'trendy'>
-        <div><Link to="/about">About</Link></div>
+        <div><Link to="/teachers">Teachers</Link></div>
         <div><Link to="/main">Information</Link></div>
         <div><Link to="/contact">Contact</Link></div>
         <div><Link to="/lessons">Lessons</Link></div>
@@ -15,10 +15,10 @@ const App = ({ children }) => (
         </div>
       </div>
     </nav>
+    <div><Link to='/'><img className='splash-logo' src="assets/Logo-vector.png"/></Link></div>
     {children}
     <nav className = 'nav-bar bottom'>
       <div className= 'trendy'>
-      <div><Link to="/">Logo and Tagline</Link></div>
       <div><a href="http://monnorcurphy.github.io">
                   Website Designer</a></div>
       </div>

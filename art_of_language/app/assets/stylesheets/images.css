@@ -3,3 +3,8 @@ img{
   max-height: 250px;
   padding: 10px;
 }
+
+.splash-logo{
+  width: 50px;
+  padding-left: 30px;
+}
