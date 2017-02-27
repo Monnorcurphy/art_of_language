@@ -21,12 +21,14 @@ class About extends React.Component{
       return (<div>
 
           <div className= 'information-div'>
-            <h2 className= 'information-title'>Liam Vogel-Spanish</h2>
+            <h2> </h2>
             <div className='orange about-wrapper'>
               <div className='inner-div liam-about'>
                 <img src="assets/Liam.jpeg"/>
-                <span className='personal'>
-              <p>My name is Liam Vogel and I'm a professional Spanish
+                <span>
+                  <h2 className='teacher-name'>Liam Vogel</h2>
+                  <h4 className='teacher-language'>Spanish</h4>
+                  <p>My name is Liam Vogel and I'm a professional Spanish
                   language teacher working out of Burbank.
                   I just moved back from Argentina in South America
                   and now I'm starting a private foreign language school.
@@ -43,7 +45,7 @@ class About extends React.Component{
               </div>
             </div>
 
-            <h2 className='ali-h2'>Some other person</h2>
+            <h2 className='ali-h2'></h2>
             <div className='red about-wrapper'>
             <div className='inner-div other-about'>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

@@ -12,3 +12,8 @@
 span > p{
   color: floralwhite;
 }
+
+.teacher-name, .teacher-language{
+  color: black;
+  padding: 10px;
+}
