@@ -9,7 +9,7 @@
   },
   "scripts": {
     "postinstall": "./node_modules/.bin/webpack",
-    "start": "node ./art_of_language/webpack.config.js"
+    "start": "node ./art_of_language/webpack.config"
   },
   "dependencies": {
     "babel-core": "^6.18.2",
