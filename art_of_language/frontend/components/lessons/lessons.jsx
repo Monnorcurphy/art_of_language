@@ -33,7 +33,7 @@ class Lesson extends React.Component{
             </div>
         </div>
 
-        
+
         <div className='blue lessons'>
           <div className='inner-div'>
 

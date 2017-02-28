@@ -15,7 +15,7 @@ const App = ({ children }) => (
         </div>
       </div>
     </nav>
-    <div><Link to='/'><img className='splash-logo' src="assets/Logo-vector.png"/></Link></div>
+    <div><Link to='/'><img className='splash-logo' src="assets/images/Logo-vector.png"/></Link></div>
     {children}
     <nav className = 'nav-bar bottom'>
       <div className= 'trendy'>

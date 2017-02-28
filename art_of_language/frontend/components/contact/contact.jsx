@@ -33,7 +33,7 @@ class Contact extends React.Component{
         </div>
         </div>
 
-      
+
         <div className='orange contact'>
           <div className='inner-div'>
 
