@@ -4,15 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bcrypt": "^1.0.2",
-    "react": "^15.4.2",
-    "react-redux": "^5.0.3",
-    "redux": "^3.6.0"
+    "node": "0.0.0",
+    "npm": "^4.3.0",
+    "react-redux": "^5.0.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node webpack.config.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
