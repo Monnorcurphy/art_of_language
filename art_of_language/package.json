@@ -8,8 +8,7 @@
     "npm": "3.9.3"
   },
   "scripts": {
-    "postinstall": "./node_modules/.bin/webpack",
-    "start": "node ./art_of_language/webpack.config"
+    "postinstall": "./node_modules/.bin"
   },
   "dependencies": {
     "babel-core": "^6.18.2",
@@ -22,6 +21,7 @@
     "co": "^4.6.0",
     "co-sleep": "0.0.1",
     "imagesloaded": "^4.1.1",
+    "node": "0.0.0",
     "nuka-carousel": "^2.0.4",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
