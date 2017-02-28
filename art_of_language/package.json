@@ -2,13 +2,14 @@
   "name": "ali",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "engines": {
     "node": "6.2.1",
     "npm": "3.9.3"
   },
   "scripts": {
-    "postinstall": "./node_modules/.bin"
+  
+    "postinstall": "./node_modules/.bin/webpack"
   },
   "dependencies": {
     "babel-core": "^6.18.2",
@@ -21,7 +22,6 @@
     "co": "^4.6.0",
     "co-sleep": "0.0.1",
     "imagesloaded": "^4.1.1",
-    "node": "0.0.0",
     "nuka-carousel": "^2.0.4",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
