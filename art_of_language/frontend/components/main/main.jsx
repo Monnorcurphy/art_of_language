@@ -23,7 +23,7 @@ class Main extends React.Component{
         <h2 className= 'information-title'></h2>
         <div className='blue'>
           <div className='inner-div'>
-            <img src="assets/Moutains.jpg"/>
+            <img src="http://res.cloudinary.com/dqiuefax1/image/upload/v1488255773/Moutains_scrovk.jpg"/>
             <span>
               <h2 className= 'heading'>ALI's Mission</h2>
           <p>ALI is committed to making you a citizen of your language.
@@ -63,7 +63,7 @@ class Main extends React.Component{
               founded ALI.
             </p>
           </span>
-            <img src="assets/Pillars.jpg"/>
+            <img src="http://res.cloudinary.com/dqiuefax1/image/upload/v1488255772/Pillars_xfsjad.jpg"/>
           </div>
         </div>
 

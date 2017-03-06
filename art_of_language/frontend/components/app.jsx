@@ -15,7 +15,7 @@ const App = ({ children }) => (
         </div>
       </div>
     </nav>
-    <div><Link to='/'><img className='splash-logo' src="assets/images/Logo-vector.png"/></Link></div>
+    <div><Link to='/'><img className='splash-logo' src="http://res.cloudinary.com/dqiuefax1/image/upload/v1487980485/imageedit_2_2657821040_nyko6e.png"/></Link></div>
     {children}
     <nav className = 'nav-bar bottom'>
       <div className= 'trendy'>

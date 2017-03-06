@@ -25,7 +25,7 @@ class Teacher extends React.Component{
             <div className='orange about-wrapper'>
               <div className='inner-div liam-about'>
                 <div className= 'teacher-images'>
-                  <img src="assets/Liam.jpeg"/>
+                  <img src="http://res.cloudinary.com/dqiuefax1/image/upload/v1488255769/Liam_f6rips.jpg"/>
                 </div>
                 <span>
                   <h2 className='heading'>Liam Vogel</h2>
@@ -50,7 +50,7 @@ class Teacher extends React.Component{
             <div className='red about-wrapper'>
             <div className='inner-div other-about'>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <img src="assets/Pillars.jpg"/>
+          <img src="http://res.cloudinary.com/dqiuefax1/image/upload/v1488255772/Pillars_xfsjad.jpg"/>
 
             </div>
           </div>
